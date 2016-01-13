@@ -50,6 +50,7 @@ public class TicketOrderingFrame extends JFrame {
 		frame.getContentPane().add(BorderLayout.SOUTH, panel3);
 		frame.setSize(400, 250);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setTitle("Ticket Order");
 		frame.setVisible(true);
 
 
