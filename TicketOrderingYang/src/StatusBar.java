@@ -17,7 +17,7 @@ public class StatusBar extends JComponent{
 	Color tempC = Color.green;
 	
 	public void paintComponent(Graphics g) {
-		g.drawRect(0, 0, TOTAL_BAR_SIZE,  y1);
+		g.drawRect(0, 0, TOTAL_BAR_SIZE,  50);
 		g.setColor(tempC);
 		g.fillRect (x, y,  x1,  y1);
 		 
