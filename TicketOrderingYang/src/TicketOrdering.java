@@ -5,7 +5,7 @@
 
 public class TicketOrdering {
 	private int ticketBalance;
-	final int MAX_TICKET = 6;
+	final int MAX_TICKET = 66;
 	final String lines = "======================";
 	private String errorMsg;
 	private String overMax = MAX_TICKET + " is the max available per order. " ;
